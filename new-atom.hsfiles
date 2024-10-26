@@ -85,7 +85,7 @@ import Lib
 import ForSyDe.Atom.MoC.SY
 
 main :: IO ()
-main = print aProcess (signal [1..10])
+main = print $ aProcess (signal [1..10])
 
 {-# START_FILE README.md #-}
 # {{name}}

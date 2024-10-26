@@ -3,12 +3,12 @@ The repository shall provide stack templates that allow a quick start with ForSy
 
 
 ## new-shallow
-The stack template `new-shallow` gives a starting point for ForSyDe-Shallow models. The following text assumes that you create a new ForSyDe-Shallow project with the name `shallow-project`.
+The stack template `new-shallow` gives a starting point for ForSyDe-Shallow models. The following text assumes that you create a new ForSyDe-Shallow project with the name `my-shallow-project`.
 
 ### Creating the project
 Create the project structure using the stack template `forsyde/new-shallow`.
 ```
-stack new shallow-project forsyde/new-shallow
+stack new my-shallow-project forsyde/new-shallow
 ```
 After creating the project structure, a few additonal steps have to be taken to have a fully working ForSyDe-Shallow project.
 
@@ -37,7 +37,7 @@ stack build
 ```
 2. Execute the project
 ```
-stack exec shallow-project-exe
+stack exec my-shallow-project-exe
 ```
 Now, you should receive the following output:
 ```
@@ -45,12 +45,12 @@ Now, you should receive the following output:
 ```
 
 ## new-atom
-The stack template `new-atom` gives a starting point for ForSyDe-Atom models. The following text assumes that you create a new ForSyDe-Atom project with the name `atom-project`.
+The stack template `new-atom` gives a starting point for ForSyDe-Atom models. The following text assumes that you create a new ForSyDe-Atom project with the name `my-atom-project`.
 
 ### Creating the project
 Create the project structure using the stack template `forsyde/new-atom`.
 ```
-stack new atom-project forsyde/new-atom
+stack new my-atom-project forsyde/new-atom
 ```
 After creating the project structure, a few additonal steps have to be taken to have a fully working ForSyDe-Shallow project.
 
@@ -80,7 +80,7 @@ stack build
 ```
 2. Execute the project
 ```
-stack exec atom-project-exe
+stack exec my-atom-project-exe
 ```
 Now, you should receive the following output:
 ```

@@ -23,5 +23,5 @@ extra-deps:
 2. If you encounter problems with the Haskell Language Server, add the line
 
 ```
-system-ghc = true
+system-ghc: true
 ```

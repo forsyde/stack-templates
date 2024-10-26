@@ -76,7 +76,7 @@ module Lib
 import ForSyDe.Atom.MoC.SY
 
 aProcess :: Signal Integer -> Signal Integer
-aProcess = map (+1)
+aProcess = comb11 (+1)
 
 {-# START_FILE app/Main.hs #-}
 module Main (main) where

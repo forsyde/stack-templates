@@ -22,7 +22,7 @@ description:         Please see the README on GitHub at <https://github.com/{{gi
 
 dependencies:
 - base >= 4.7 && < 5
-# - forsyde-atom >=0.3.2 && <0.3.3
+#- forsyde-atom >=0.3.2 && <0.3.3
 
 ghc-options:
 - -Wall

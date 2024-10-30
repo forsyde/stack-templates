@@ -12,7 +12,7 @@ stack new my-shallow-project forsyde/new-shallow
 ```
 After creating the project structure, a few additonal steps have to be taken to have a fully working ForSyDe-Shallow project.
 
-Enter the project directory `my-shallow-project`and change the following in the files `package.yaml` and `stack.yaml`.
+Enter the project directory `my-shallow-project` and change the following in the files `package.yaml` and `stack.yaml`.
 
 In `package.yaml`:
 
@@ -58,7 +58,7 @@ stack new my-atom-project forsyde/new-atom
 ```
 After creating the project structure, a few additonal steps have to be taken to have a fully working ForSyDe-Shallow project.
 
-Enter the project directory `my-atom-project`and change the following in the files `package.yaml` and `stack.yaml`.
+Enter the project directory `my-atom-project` and change the following in the files `package.yaml` and `stack.yaml`.
 
 In `package.yaml`:
 

@@ -1,5 +1,5 @@
 # stack-templates
-The repository shall provide stack templates that allow a quick start with ForSyDe and gives support for the Haskell language server protocol, if your editor supports it. It works almost out of the box with VSCode if the Haskell extension is installed, for other editors some more effort is required. You might have to restart the editor after completing the guide.
+The repository shall provide stack templates that allow a quick start with ForSyDe and gives support for the Haskell language server protocol, if your editor supports it. It works almost out of the box with VSCode if the Haskell extension is installed, for other editors some more effort is required. The setup in your editor might take some time, and you also might have to restart the editor after completing the guide.
 
 The guide assumes that you have already an installed Haskell environment. Otherwise, follow the instructions on the [Haskell webpage](https://www.haskell.org/) to install it.
 

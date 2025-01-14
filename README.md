@@ -1,6 +1,8 @@
 # stack-templates
 The repository shall provide stack templates that allow a quick start with ForSyDe.
 
+It assumes that you have already an installed Haskell environment. Otherwise, follow the instructions on the [Haskell webpage](https://www.haskell.org/) to install it.
+
 
 ## new-shallow
 The stack template `new-shallow` gives a starting point for ForSyDe-Shallow models. The following text assumes that you create a new ForSyDe-Shallow project with the name `my-shallow-project`.

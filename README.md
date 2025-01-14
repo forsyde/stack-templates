@@ -1,7 +1,7 @@
 # stack-templates
-The repository shall provide stack templates that allow a quick start with ForSyDe.
+The repository shall provide stack templates that allow a quick start with ForSyDe and gives support for the Haskell language server protocol, if your editor supports it. It works almost out of the box with VSCode if the Haskell extension is installed, for other editors some more effort is required. You might have to restart the editor after completing the guide.
 
-It assumes that you have already an installed Haskell environment. Otherwise, follow the instructions on the [Haskell webpage](https://www.haskell.org/) to install it.
+The guide assumes that you have already an installed Haskell environment. Otherwise, follow the instructions on the [Haskell webpage](https://www.haskell.org/) to install it.
 
 
 ## new-shallow
@@ -22,7 +22,11 @@ In `package.yaml`:
 
 In `stack.yaml`:
 
-1. Add the extra dependency to ForSyDe-Shallow
+1. Define the Haskell package set (see [Stackage Server](https://www.stackage.org/)) that you want to use by adding a defined snapshot. We recommend to use ghc-9.6.6 (lts-22.43), since it is currently the latest ghc version which is supported by the Haskell language server. So, modify the snapshot (usually given as 'url') to
+```
+snapshot: lts-22.43
+```
+2. Add the extra dependency to ForSyDe-Shallow
 
 ```
 extra-deps:
@@ -31,7 +35,7 @@ extra-deps:
 
 You can add it at the end of the file.
 
-2. If you encounter problems with the Haskell Language Server, add the line
+3. If you encounter problems with the Haskell Language Server, add the line
 
 ```
 system-ghc: true
@@ -68,7 +72,11 @@ In `package.yaml`:
 
 In `stack.yaml`:
 
-1. Add the extra dependency to ForSyDe-Atom. Here we use a so far inofficial version that has been developed for newer GHC-version (9.6.6). You can add it at the end of the file.
+1. Define the Haskell package set (see [Stackage Server](https://www.stackage.org/)) that you want to use by adding a defined snapshot. We recommend to use ghc-9.6.6 (lts-22.43), since it is currently the latest ghc version which is supported by the Haskell language server. So, modify the snapshot (usually given as 'url') to
+```
+snapshot: lts-22.43
+```
+2. Add the extra dependency to ForSyDe-Atom. Here we use a so far inofficial version that has been developed for newer GHC-version (9.6.6). You can add it at the end of the file.
 
 ```
 extra-deps:
@@ -76,7 +84,7 @@ extra-deps:
   commit: dc70e7f764f149bbe5ddb8a97f000aad34a09f91
 ```
 
-2. If you encounter problems with the Haskell Language Server, add the line
+3. If you encounter problems with the Haskell Language Server, add the line
 
 ```
 system-ghc: true

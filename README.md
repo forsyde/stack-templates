@@ -1,5 +1,5 @@
 # stack-templates
-The repository shall provide stack templates that allow for a quick start with ForSyDe and support the Haskell language server protocol, if your editor supports it. It works almost out of the box with VSCode if the Haskell extension is installed, for other editors, some more effort is required. The setup in your editor may take some time, and you may also need to restart the editor after completing the guide.
+The repository shall provide stack templates that allow for a quick start with ForSyDe and support the Haskell language server protocol, if your editor supports it. It works almost out of the box with VSCode if the Haskell extension is installed; for other editors, some more effort is required. The setup in your editor may take some time, and you may also need to restart the editor after completing the guide.
 
 The guide assumes that you already have a Haskell environment installed. Otherwise, follow the instructions on the [Haskell webpage](https://www.haskell.org/) to install it.
 
@@ -22,7 +22,7 @@ In `package.yaml`:
 
 In `stack.yaml`:
 
-1. Define the Haskell package set (see [Stackage Server](https://www.stackage.org/)) that you want to use by adding a defined snapshot. We recommend using GHC 9.6.7 (LTS 22.47), as it is currently the latest supported GHC version by the Haskell language server. So, modify the snapshot (usually given as 'url') to
+1. Define the Haskell package set (see [Stackage Server](https://www.stackage.org/)) that you want to use by adding a defined snapshot. We recommend using GHC 9.6.7 (LTS 22.44), as it is currently the latest supported version of GHC by the Haskell language server. So, modify the snapshot (usually given as 'url') to
 ```
 snapshot: lts-22.44
 ```
@@ -72,7 +72,7 @@ In `package.yaml`:
 
 In `stack.yaml`:
 
-1. Define the Haskell package set (see [Stackage Server](https://www.stackage.org/)) that you want to use by adding a defined snapshot. We recommend using ghc-9.6.7 (lts-22.44), as it is currently the latest GHC version which is supported by the Haskell language server. So, modify the snapshot (usually given as 'url') to
+1. Define the Haskell package set (see [Stackage Server](https://www.stackage.org/)) that you want to use by adding a defined snapshot. We recommend using GHC 9.6.7 (LTS 22.44), as it is currently the latest supported GHC version by the Haskell language server. So, modify the snapshot (usually given as 'url') to
 ```
 snapshot: lts-22.44
 ```

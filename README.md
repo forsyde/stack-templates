@@ -81,7 +81,7 @@ snapshot: lts-22.44
 ```
 extra-deps:
 - git: git@github.com:forsyde/forsyde-atom.git
-  commit: dc70e7f764f149bbe5ddb8a97f000aad34a09f91
+  commit: faefc2d64c786c1a64aa0956eddb6853632e3ba5
 ```
 
 3. If you encounter problems with the Haskell Language Server, add the line

@@ -43,6 +43,7 @@ system-ghc: true
 ### Build and run the project
 1. Enter the project directory and build the project
 ```
+stack install
 stack build
 ```
 2. Execute the project
@@ -92,6 +93,7 @@ system-ghc: true
 ### Build and run the project
 1. Enter the project directory and build the project
 ```
+stack install
 stack build
 ```
 2. Execute the project
